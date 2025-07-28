@@ -10,3 +10,9 @@ def check_password_strength(password):
     score = sum([has_upper, has_lower, has_digit, has_symbol])
     if length < 6:
         return "Weak"
+    elif length >= 6 and score >= 3:
+        return "Medium "
+    elif length >= 8 and score == 4:
+        return "Strong "
+    else:
+        return "Weak "
