@@ -8,3 +8,5 @@ def check_password_strength(password):
     has_symbol = bool(re.search(r'[\W_]', password))
 
     score = sum([has_upper, has_lower, has_digit, has_symbol])
+    if length < 6:
+        return "Weak"
