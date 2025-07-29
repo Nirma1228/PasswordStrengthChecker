@@ -10,3 +10,10 @@ This is a simple Python-based CLI tool that checks the strength of a password pr
   - Lowercase letters
   - Numbers
   - Symbols
+
+## 🚀 How to Run
+
+### 1. Clone or Download
+
+git clone https://github.com/yourusername/PasswordStrengthChecker.git
+cd PasswordStrengthChecker
